@@ -31,7 +31,7 @@ searchInput.addEventListener("change", (e) => {
       weatherState.innerHTML = data.weather[0].description;
       weatherIcon.setAttribute(
         "src",
-        `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`
+        `https://openweathermap.org/img/wn/${data.weather[0].icon}.png`
       );
       temperature.innerHTML = Math.round(data.main.temp);
 
